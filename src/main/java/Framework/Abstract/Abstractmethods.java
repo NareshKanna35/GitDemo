@@ -24,6 +24,7 @@ import Framework.pageobjectmodel.CartPage;
 public class Abstractmethods {
 
 // this change is done to test the git 18012026
+	// second git test
 	WebDriver driver;
 	public WebDriverWait wait;
 
