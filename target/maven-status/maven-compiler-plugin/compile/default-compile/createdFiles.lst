@@ -1,0 +1,7 @@
+Framework\pageobjectmodel\CartPage.class
+Framework\Abstract\Abstractmethods.class
+Framework\pageobjectmodel\paymentPage.class
+Framework\pageobjectmodel\orderPage.class
+Framework\pageobjectmodel\LandingPage.class
+Framework\resources\ExtentReporterNG.class
+Framework\pageobjectmodel\ProductPage.class

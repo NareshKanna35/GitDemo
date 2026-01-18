@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="NareshQA.TestComponents.listen"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="FunctionalityE2E(failed)" verbose="0">
+    <classes>
+      <class name="Naresh_QA.FrameworkTutorial.finaltest">
+        <methods>
+          <include name="submitorder"/>
+          <include name="launchapplication"/>
+          <include name="exitbrowser"/>
+        </methods>
+      </class> <!-- Naresh_QA.FrameworkTutorial.finaltest -->
+    </classes>
+  </test> <!-- FunctionalityE2E(failed) -->
+  <test thread-count="5" parallel="tests" name="ErrorNotification(failed)" verbose="0">
+    <classes>
+      <class name="Naresh_QA.FrameworkTutorial.LoginErrorTest">
+        <methods>
+          <include name="launchapplication"/>
+          <include name="loginerrorhandling"/>
+          <include name="carterrorvalidation"/>
+          <include name="loginerrormessage"/>
+          <include name="exitbrowser"/>
+        </methods>
+      </class> <!-- Naresh_QA.FrameworkTutorial.LoginErrorTest -->
+    </classes>
+  </test> <!-- ErrorNotification(failed) -->
+</suite> <!-- Failed suite [Suite] -->

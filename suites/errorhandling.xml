@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite">
+	
+	<listeners>
+		<listener class-name="NareshQA.TestComponents.listen"></listener>
+	</listeners>
+	
+	<test thread-count="5" name="FunctionalityE2E">
+		<classes>
+			<class name="Naresh_QA.FrameworkTutorial.finaltest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="ErrorNotification">
+		<classes>
+			<class name="Naresh_QA.FrameworkTutorial.LoginErrorTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
