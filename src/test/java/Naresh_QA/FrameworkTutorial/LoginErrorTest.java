@@ -33,6 +33,7 @@ public class LoginErrorTest extends BaseTest {
 		LP.loginapplication("nareshkannapgn@gmail.com", "Test123");
 		// *[@id="toast-container"]/div/div
 		Assert.assertEquals("Incorrect email or password.", LP.loginerror());
+		System.out.println("Correct error message displayed as notification..");
 
 	}
 
