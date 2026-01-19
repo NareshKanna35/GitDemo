@@ -114,7 +114,7 @@
         
         
         <profile>
-            <id>errorhanlding</id>
+            <id>errorhandling</id>
             <build>
                 <plugins>
                     <plugin>
